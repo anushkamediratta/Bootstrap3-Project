@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Bootstrap Website</title>
+  <style>
+    .custom-margin{
+        margin-top:-20px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-header">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" href="#">My Logo</a>
+          </div>
+          <div class="collapse navbar-collapse" id="my-header">
+          <a href="" class="btn btn-info navbar-btn navbar-right">Download Now</a>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#feedback">Feedback</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+            <li><a href="#contactus">ContactUs</a></li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="jumbotron ">
+        <div class="container text-center ">
+            <h1>Entrepreneur Adda</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa itaque, iusto dolorem quisquam reprehenderit nisi id doloremque consequuntur officiis rerum aspernatur illum odio eius exercitationem atque assumenda voluptatibus adipisci modi.</p>
+            <div class="btn-group">
+                <a href="#" class="btn btn-info btn-lg">Download App</a>
+                <a href="#" class="btn btn-default btn-lg">Visit Store</a>
+                <a href="#" class="btn btn-info btn-lg">Spread the Word</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="feedback"> <!--Feedback-->
+        <div class="page-header">
+            <h2>Feedback<small> Check out Awesome Feedback</small></h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, consectetur! Voluptatibus sunt esse ut adipisci itaque accusamus illo vel magnam est minima deserunt doloribus provident, porro fuga facere explicabo ducimus?</p>
+                </blockquote>
+                <footer>
+                    --Person A
+                </footer>
+            </div>
+            <div class="col-sm-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, consectetur! Voluptatibus sunt esse ut adipisci itaque accusamus illo vel magnam est minima deserunt doloribus provident, porro fuga facere explicabo ducimus?</p>
+                </blockquote>
+                <footer>
+                   --Person B
+                </footer>
+            </div>
+            <div class="col-sm-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, consectetur! Voluptatibus sunt esse ut adipisci itaque accusamus illo vel magnam est minima deserunt doloribus provident, porro fuga facere explicabo ducimus?</p>
+                </blockquote>
+                <footer>
+                    --Person C
+                </footer>
+            </div>
+        </div>
+
+    </div> <!--End of Feedback-->
+
+    <div class="well">
+        <div class="container text-center">
+            <h3>Subscribe for More Free Stuff</h3>
+            <p>Enter your Name and Email</p>
+            <form class="form-inline" action="/action_page.php">
+                <div class="form-group">
+                  <label for="name">Name :</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email :</label>
+                  <input type="text" class="form-control" id="email">
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+              </form>
+        </div>
+    </div>
+
+    <div class="container" id="gallery">  <!--Gallery-->
+        <div class="page-header">
+            <h2>Gallery<small> Check out Awesome Gallery</small></h2>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="1.jpg" alt="1">
+              </div>
+          
+              <div class="item">
+                <img src="2.jpg" alt="2">
+              </div>
+          
+              <div class="item">
+                <img src="3.jpg" alt="3">
+              </div>
+
+              <div class="item">
+                <img src="4.jpg" alt="4">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div> <!--End of Gallery-->
+
+    <div class="container" id="features"> <!--Features-->
+        <div class="page-header">
+            <h2>Features<small> Some coolest features of this app</small></h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Heading 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora esse tempore omnis autem, non minus ducimus dicta? At quam fuga cumque tempora pariatur veniam perspiciatis! Neque ut magnam ex!</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="m1.jpg" class="img-responsive"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Heading 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora esse tempore omnis autem, non minus ducimus dicta? At quam fuga cumque tempora pariatur veniam perspiciatis! Neque ut magnam ex!</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="m2.jpg" class="img-responsive"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Heading 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora esse tempore omnis autem, non minus ducimus dicta? At quam fuga cumque tempora pariatur veniam perspiciatis! Neque ut magnam ex!</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="m3.jpg" class="img-responsive"/>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="panel panel-default panel-body text-center">
+                    <span class="glyphicon glyphicon-refresh"></span>
+                    <div class="panel-body custom-margin"><h3>This is Heading</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ducimus architecto dolores soluta voluptatibus, itaque exercitationem repellendus hic ratione cum sit</p>
+                    </div>
+                </div>    
+              </div>  
+              <div class="col-sm-4">
+                <div class="panel panel-default panel-body text-center">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <div class="panel-body custom-margin"><h3>This is Heading</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ducimus architecto dolores soluta voluptatibus, itaque exercitationem repellendus hic ratione cum sit</p>
+                    </div>
+                </div>    
+              </div>  
+              <div class="col-sm-4">
+                <div class="panel panel-default panel-body text-center">
+                    <span class="glyphicon glyphicon-repeat"></span>
+                    <div class="panel-body custom-margin"><h3>This is Heading</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ducimus architecto dolores soluta voluptatibus, itaque exercitationem repellendus hic ratione cum sit</p>
+                    </div>
+                </div>    
+              </div>      
+            </div>
+        </div>
+    </div> <!--End pf Features-->
+
+    <div class="container" id="faqs">     <!--FAQs-->
+      <div class="page-header">
+        <h2>FAQs<small>  Engaging with the Consumers</small></h2>
+      </div>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+              Question One?</a>
+          </div><!--end panel title-->
+          <div class="panel-collapse collapse in" id="collapse-1">
+            <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at hendrerit nisl. Pellentesque habitant morbi</p>
+            </div><!--End Panel Collapse-->
+          </div>	
+        </div>
+          </div>
+          <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+              Question Two?</a>
+          </div><!--end panel title-->
+          <div class="panel-collapse collapse" id="collapse-2">
+            <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at hendrerit nisl. Pellentesque habitant morbi</p>
+            </div><!--End Panel Collapse-->
+          </div>	
+        </div>
+          </div>
+          <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+              Question Three?</a>
+          </div><!--end panel title-->
+          <div class="panel-collapse collapse" id="collapse-3">
+            <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at hendrerit nisl. Pellentesque habitant morbi</p>
+            </div><!--End Panel Collapse-->
+          </div>	
+        </div>
+          </div>
+        </div><!--end panel group-->
+    </div> <!--End of FAQs-->
+
+    <div class="container" id="contactus"><!--ContactUs-->
+      <div class="page-header">
+        <h2>ContactUs<small>  Connect with us for more</small></h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <p>Send us a message, or contact us from the address below:</p>
+          <address>
+            <strong>Entrepreneur Adda</strong><br>
+            367-B Rajendra Nagar,Bareilly<br>
+            111938722<br>
+          </address>
+        </div>
+
+        <div class="col-lg-8">
+          <form class="form-horizontal" action="">
+            <div class="form-group">
+              <label for="user name" class="col-lg-2 control-label">User Name</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="user name" placeholder="Enter Your Name">
+              </div>
+            </div><!--end Form group-->
+                  <div class="form-group">
+              <label for="user email" class="col-lg-2 control-label">User Email</label>
+              <div class="col-lg-10">
+                <input type="email" class="form-control" id="user email" placeholder="Enter Your Email Address">
+              </div>
+            </div><!--end Form group-->
+                  <div class="form-group">
+              <label for="user website" class="col-lg-2 control-label">Website</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="user name" placeholder="If you have Any">
+              </div>
+            </div><!--end Form group-->
+                  <div class="form-group">
+              <label for="user message" class="col-lg-2 control-label">Message</label>
+              <div class="col-lg-10">
+              <textarea class="form-control" id="user message" name="user message" cols="20" rows="10" placeholder="Enter Your Messsage" ></textarea>
+              </div>
+            </div><!--end Form group-->
+            <div class="form-group">
+              <div class="col-lg-10 col-lg-offset-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div><!--end row-->
+
+
+    </div> <!--End of ContactUs-->
+
+    <footer>
+			<hr>
+			<div class="container text-center">
+	<h3>Suscribe for More Free Stuff</h3>
+	<p>Enter your name and email</p>
+	<form action="" class="form-inline">
+		<div class="form-group">
+			<label for="subscription">Suscribe</label>
+			<input type="text" class="form-control" id="Subscription" placeholder="Your Name"> 
+		</div>
+		<div class="form-group">
+		<label for="email">E-mail</label>
+		<input type="email" class="form-control" id="Email" placeholder="Your email"> 
+		</div>
+		<button type="submit" class="btn btn-info">Subscribe</button>
+		<hr>
+	</form>
+	<hr>
+	<ul class="list-inline">
+		<li><a href="">Twitter</a></li>
+		<li><a href="">FaceBook</a></li>
+		<li><a href="">Youtube</a></li>
+	</ul>
+	<p>  Copyright &copy; Created by Anushka Mediratta</p>
+</div><!--End for Container-->
+		</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
